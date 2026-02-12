@@ -7,7 +7,7 @@ const config = {
   providers: [
     Resend({
       apiKey: process.env.RESEND_KEY,
-      from: "noreply@resend.creatorjag.at",
+      from: "hello@auth.jagatjaishankar.com",
       name: "Email",
     }),
   ],
