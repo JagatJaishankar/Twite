@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Twite
 
-## Getting Started
+> Free AI tool that turns your dev journal into ready‑to‑post tweets so you can build in public without thinking “what do I tweet?”.
 
-First, run the development server:
+<img width="800" alt="Screenshot 2026-02-13 at 10 03 20" src="https://github.com/user-attachments/assets/64aeb79e-b771-476d-a8b6-1512e96b1761" />
+<img width="800" alt="Screenshot 2026-02-13 at 10 05 04" src="https://github.com/user-attachments/assets/0c67a047-397e-419d-9712-47275875a93e" />
+<img width="800" alt="Screenshot 2026-02-13 at 10 06 27" src="https://github.com/user-attachments/assets/fea0c371-f03c-42a9-8421-2b5e03954ea6" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## The Problem
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*Developers want to build in public but get stuck staring at the “What’s happening?” box with nothing to say. They already have notes, daily logs, and scraps of ideas—but turning that into short, engaging tweets takes time, energy, and copywriting skills. The result is inconsistent posting, low visibility, and missed opportunities to grow an audience while shipping.*
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## The Solution
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*Twite lets developers upload or paste their daily journal and automatically turns it into tweet‑ready posts. Powered by ChatGPT and trained on high‑performing Twitter formats, it rewrites raw notes into punchy, scroll‑stopping updates that can be pasted straight into X in seconds. You keep focusing on building, while Twite handles sounding good in public.*
 
-## Learn More
+## Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Journal-to-Tweet Engine** — Paste your daily dev log or notes and instantly get multiple tweet options.
+- **AI Powered Re-Writing** — Uses ChatGPT tuned on viral Twitter formats to craft punchy, engaging posts.
+- **Build in Public Focus** — Optimizes for clarity, progress sharing, and personality, not generic AI text.
+- **Copy-Paste Workflow** — One click to copy any tweet and paste it directly into X with no extra editing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Category | Technology |
+|----------|-----------|
+| Frontend | Next.js, React, Tailwind CSS (w/ DaisyUI) |
+| Backend | Next.js, Node.js |
+| Database | NoSQL / MongoDB |
+| Auth | NextAuth.js |
+| Payments | None (Free to Use) |
+| AI / LLM | OpenAI API (ChatGPT) |
+| Deployment | Vercel |
 
-## Deploy on Vercel
+## Live Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔗 **[Try it live →](https://twite-for-x-vercel.app)**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Built by [Jagat Jaishankar](https://jagatjaishankar.com) · [Twitter](https://x.com/JaishankarJagat) · [LinkedIn](https://linkedin.com/in/jagatjaishankar)
